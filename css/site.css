@@ -4,12 +4,17 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #50808E;
+  background-color: #0A0B22;
+  color: #D7CEB2;
+  font-family: Lucida;
+  margin: 0;
+  padding: 0;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  color: #D7CEB2;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -21,16 +26,56 @@ h1 {
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
+  margin: 60px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #586f7c;
+  border: solid 1px #0f0f0f;
+  border-radius: 10px;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: solid 1px #0f0f0f;
+  background-color: #6C6F7D;
+  border-radius: 8px;
+}
+
+a{
+  color: #D7CEB2;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover{
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.about-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-pic{
+  width: 200px;
+  border: 3px solid #0f0f0f;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  margin-top: -20px;
+  align-self: flex-start;
+}
+
+.about-text{
+  flex: 1;
+  min-width: 250px;
+}
+
+#links .minor-section{
+  margin-top: 40px;
 }
