@@ -7,3 +7,25 @@
     border: solid 1px #888;
     background-color: #6C6F7D;
   }
+
+.minor-section pre{
+  text-align: left;
+  font-family: monospace;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #eee;
+  color: black;
+  border-radius: 8px;
+  max-width: 90%;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.minor-section code{
+  display: inline-block;
+  text-align: left;
+}
+
+.image{
+  width: 650px;
+}
