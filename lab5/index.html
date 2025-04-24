@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 5 - Data Types and Variables</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,29 +23,50 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 5 - Data Types and Variables</h1>
+			<p> Working with your partner, experiment with basic JavaScript data types and variables.</p>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The challenge of this lab was to declare and use different JavaScript variables, and output their values using document.writeln() to display them on a webpage.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>One small issue I ran into was making sure the script was correctly linked to the HTML file and that it executed after the page fully loaded.
+						Something that helped resolve this issue was the inclusion of the DEFER attribute in the script tag already in the file, which after some researching 
+						means it ensures that the script runs after the HTML has been passed.
+						I also double-checked that the file paths matched the folder structure. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>This assignment was straightforward and a good refresher on basic JavaScript syntax, especially how to define variables and display them on the page.
+						I enjoyed setting up the file structure and seeing my code run in the browser. I put in consistent effort into making the code clean and readable, using good indentation and comments. 
+						Overall, this lab was a solid practice in combining HTML, CSS, and JS in a working project. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<h3>Script Output</h3>
+					<div class="output">
+						<img class="result-img" src="img/toyota.jpeg" alt="A 2007 Blue Toyota RAV4">
+						<script type="text/javascript" src="js/lab.js"></script>
+						<p>*Not my photo, image taken from CARFAX</p>
+					</div>
 			</div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
+			<div class="minor-section">
+				<h2>Other pages</h2>
+				<ul>
+					<li><a href="../index.html">Homepage</a></li>
+					<li><a href="../lab2/index.html">Lab 2: Your First HTML</a></li>
+					<li><a href="../lab3/index.html">Lab 3: File Structure and File Transfer</a></li>
+					<li><a href="../lab4/">Lab 4: Pseudocoding and Problem-Solving</a></li>
+					<li><a href="../lab6/">Lab 6: Arrays and Objects</a></li>
+				</ul>
+			</div>
 		</nav>
 	</main>
 </body>
