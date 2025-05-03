@@ -6,7 +6,7 @@
 function sortUserName(){
     //Prompt user for their name
     let userName = window.prompt("What's your name?");
-    console.log("User NameL ", userName);
+    console.log("User Name: ", userName);
 
     //Give user another try if they cancel or enter nothing
     if (!userName){
