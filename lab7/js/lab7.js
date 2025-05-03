@@ -20,8 +20,11 @@ function sortUserName(){
 
     //Convert name to array, sort it, then join back
     let nameArray = userName.split('');
+    console.log("nameArray: ", nameArray);
     let sortedArray = nameArray.sort();
+    console.log("sortedArray: ", sortedArray);
     let sortedName = sortedArray.join('');
+    console.log("sortedName: ", sortedName);
 
     return sortedName;
 }
