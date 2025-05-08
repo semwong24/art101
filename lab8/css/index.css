@@ -1,0 +1,18 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #6C6F7D;
+  }
+
+  .output {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: 2px solid #444;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #222;
+    margin-top: 10px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
