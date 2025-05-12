@@ -1,0 +1,44 @@
+.special{
+    background-color: #bdebff;
+    color: #0A0B22;
+    border: 3px dashed #dec012;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(182, 167, 83, 0.5);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Improve sppacing and readability inside sections */
+#challenge, #problems, #results{
+    padding: 10px 0;
+}
+
+#challenge p, #problems p, #results p{
+    margin-bottom: 10px;
+}
+
+/* Make section headings more distinct */
+h2{
+    border-bottom: 2px solid #D7CEB2;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+/*Style buttons for clarity and interactivity */
+button{
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #dec012;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #c7aa0a;
+    color: white;
+}
