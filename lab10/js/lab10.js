@@ -18,12 +18,32 @@ function generateRandomText() {
   return text.slice(randStart, randStart + randLen);
 }
 
+// Bonus task
+let messageCount = 0; //track how many messages have been added
+
 // click listener for button
 $("#make-convo").click(function(){
-    // get new fake dialogue
-    const newText = generateRandomText();
+    // get user input value
+    const userInput = $("#user-input").val().trim();
+
+    // use user input if available, otherwise generate random text
+    const newText = userInput !== "" ? userInput : generateRandomText();
+
+    //decide class based on message number
+    const alignmentClass = (messageCount % 2 === 0) ? "left" : "right";
 
     // append a new div to our output div
-    $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+    $("#output").append('<div class="text ' + alignmentClass + '"><p>' + newText + '</p></div>');
+
+    messageCount++;
+
+    //clear the input field
+    $("#user-input").val("");
+});
+
+$("#user-input").keypress(function(event) {
+    if (event.which === 13) {// 13 = Enter key
+        $("#make-convo").click();
+    }
 });
 

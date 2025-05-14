@@ -5,6 +5,21 @@
     background-color: #6C6F7D;
   }
 
+
+.text {
+    width: 100%;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.text.left{
+    justify-content: flex-start;
+}
+
+.text.right{
+    justify-content: flex-end;
+} 
+  
 .text p{
     display: inline-block;
     max-width: 60%;
@@ -16,3 +31,12 @@
     font-family: sans-serif;
     font-size: 0.8em;
 } 
+
+#user-input{
+    width: 60%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em;
+}
