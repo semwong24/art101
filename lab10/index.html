@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 10 - JavaScript for the Web</title>
+  	<meta charset="UTF-8" />
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script type="text/javascript" src="./js/lab10.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 10 - JavaScript for the Web</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>The challenge of this lab was to use JavaScript and jQuery to modify the DOM by generating and appending new elements when a user interacts with a button. 
+                        This lab explores how JavaScript can be used to make websites more interactive and responsive.
+                    </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>Initially, I had trouble getting the JavaScript to run properly. The event listener didn't seem to work at first, but I realized that I had placed the script code before the DOM had fully loaded.
+                        Adding the <code>DEFER</code> attribute to the script tag fixed the issue. I also had to move the button outside of the <code>#output</code> div to avoid accidentally overwriting it with new content.
+                    </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+                    <p>The final result is a functional web page where clicking the "Say Something" button generates a new chat-style text bubble with a random snippet of text.
+                        I used jQuery to handle the button click and DOM manipulation, and the CSS to style the bubbles. 
+                        The output successfully simulates a chat interface and demonstrates dynamic interaction using JavaScript and jQuery.
+                    </p>
+					<div id="output"></div>
+                    <button id="make-convo">Say Something</button>
+			</div>
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+            <div class="minor-section">
+                <h2>Other pages</h2>
+                <ul>
+                    <li><a href="../index.html">Homepage</a></li>
+                    <li><a href="../lab2/index.html">Lab 2: Your First HTML</a></li>
+                    <li><a href="../lab3/index.html">Lab 3: File Structure and File Transfer</a></li>
+                    <li><a href="../lab4/">Lab 4: Pseudocoding and Problem-Solving</a></li>
+                    <li><a href="../lab5/">Lab 5: Data Types and Variables</a></li>
+                    <li><a href="../lab6/">Lab 6: Arrays and Objects</a></li>
+                    <li><a href="../lab7/">Lab 7: Functions</a></li>
+                    <li><a href="../lab8/">Lab 8: Anon Functions and Callbacks</a></li>
+                    <li><a href="../lab9/">Lab 9: Libraries & jQuery</a></li>
+                </ul>
+            </div>
+		</nav>
+	</main>
+</body>
+</html>
