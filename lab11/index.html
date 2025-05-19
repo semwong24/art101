@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 11: JavaScript Events and Forms</title>
+  	<meta charset="UTF-8" />
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	 <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab11.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 11: JavaScript Events and Forms</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>This lab's goal was to use JavaScript and jQuery to respond to user input. 
+                        On the page, I built a form where a user can enter their name, click a button, and see the letters sorted alphabetically using a custom function.
+                    </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>A problem that came up was making sure the jQuery selectors matched the HTML elemnt IDs. 
+                        Using DEFER helped ensure the script didn't run before the page loaded. Styling and layout also took some trial and error to get clean results. 
+                    </p>
+			</div>
+
+            <div class="minor-section">
+					<h2>Reflection</h2>
+					<p>This was a fun and manageable lab. It helped solidify how events and DOM updates work. 
+                        The interactivity felt rewarding, and testing with the console made debugging easier. I think I would like to explore adding more features next time.
+                    </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<div id="output"> </div>
+                    <input  type="text" id="user-name" placeholder="Input your name">
+                    <button id="submit">Submit</button>
+			</div>
+            
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+            <div class="minor-section">
+                <h2>Other pages</h2>
+                <ul>
+                    <li><a href="../index.html">Homepage</a></li>
+                    <li><a href="../lab2/index.html">Lab 2: Your First HTML</a></li>
+                    <li><a href="../lab3/index.html">Lab 3: File Structure and File Transfer</a></li>
+                    <li><a href="../lab4/">Lab 4: Pseudocoding and Problem-Solving</a></li>
+                    <li><a href="../lab5/">Lab 5: Data Types and Variables</a></li>
+                    <li><a href="../lab6/">Lab 6: Arrays and Objects</a></li>
+                    <li><a href="../lab7/">Lab 7: Functions</a></li>
+                    <li><a href="../lab8/">Lab 8: Anon Functions and Callbacks</a></li>
+                    <li><a href="../lab9/">Lab 9: Libraries & jQuery</a></li>
+                    <li><a href="../lab10/">Lab 10: JavaScript for the Web</a></li>
+                </ul>
+            </div>
+		</nav>
+	</main>
+</body>
+</html>

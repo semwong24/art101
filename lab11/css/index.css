@@ -1,0 +1,38 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #6C6F7D;
+  }
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.text p{
+    display: inline-block;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #2ecadf;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+} 
+
+#user-name{
+    width: 60%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em;
+}
