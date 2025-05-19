@@ -36,3 +36,23 @@
     border-radius: 10px;
     font-size: 1em;
 }
+
+@keyframes shake{
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(-5px, 0); }
+    40% { transform: translate(5px, 0); }
+    60% { transform: translate(-5px, 0); }
+    80% { transform: translate(5px, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+.text.warning p {
+  background-color: #ff4d4d; /* red-ish background */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #b30000;
+}
