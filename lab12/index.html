@@ -1,58 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 11: JavaScript Events and Forms</title>
+	<title>Lab 12: Conditionals</title>
   	<meta charset="UTF-8" />
 
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	 <link rel="stylesheet" type="text/css" href="../css/site.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/lab11.js" DEFER></script>
+    <script src="js/lab12.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 11: JavaScript Events and Forms</h1>
+			<h1>Lab 12: Conditionals</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>This lab's goal was to use JavaScript and jQuery to respond to user input. 
-                        On the page, I built a form where a user can enter their name, click a button, and see the letters sorted alphabetically using a custom function.
-                    </p>
+					<p>The challenge was to use JavaScript conditionals to create a "Sorting Hat" experience that reacts to user input and outputs a result based on logic.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>A problem that came up was making sure the jQuery selectors matched the HTML elemnt IDs. 
-                        Using DEFER helped ensure the script didn't run before the page loaded. Styling and layout also took some trial and error to get clean results. 
+					<p>I didn't run into any major problems while working on this lab. The most would be that at first I wasn't sure how to style the output dynamically with jQuery, but 
+                        testing in the console helped reaffirm that the HTML and DOM can be updated together.
                     </p>
 			</div>
 
             <div class="minor-section">
 					<h2>Reflection</h2>
-					<p>This was a fun and manageable lab. It helped solidify how events and DOM updates work. 
-                        The interactivity felt rewarding, and testing with the console made debugging easier. I think I would like to explore adding more features next time.
-                    </p>
+					<p>This lab helped reinforce how conditionals work in JavaScript and gave me creative control over the user experience. It was fun and satisfying to test live changes.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"> </div>
-                    <input  type="text" id="user-name" placeholder="Input your name">
-                    <button id="submit">Submit</button>
-                    <a class="sourcelink" href="js/lab11.js" target="_blank">JavaScript Source</a>
+                    <label for="input">Please enter your name for sorting:</label>
+                    <input type="text" id="input" />
+                    <button id="button">Submit</button>
+                    <div id="output"></div>
+                    <a class="sourcelink" href="js/lab12.js" target="_blank">JavaScript Source</a>
 			</div>
 
-            <div class="minor-section">
-                <h2>Bonus Tasks</h2>
-                <input  type="text" id="user-age" placeholder="Input your age">
-                <input  type="text" id="user-color" placeholder="Input your favorite color">
-                <button id="anagram">Create Anagram</button>
-                <button id="show-info">Show Info</button>
-                <button id="glitch">Glitch Page</button>
-                <button id="auto-glitch-toggle">Start Auto-Glitch</button>
-            </div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
@@ -69,7 +57,7 @@
                     <li><a href="../lab8/">Lab 8: Anon Functions and Callbacks</a></li>
                     <li><a href="../lab9/">Lab 9: Libraries & jQuery</a></li>
                     <li><a href="../lab10/">Lab 10: JavaScript for the Web</a></li>
-                    <li><a href="../lab12/">Lab 12: Conditionals</a></li>
+                    <li><a href="../lab11/">Lab 11: JavaScript Events and Forms</a></li>
                 </ul>
             </div>
 		</nav>

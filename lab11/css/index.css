@@ -56,3 +56,11 @@
   font-weight: bold;
   border: 2px solid #b30000;
 }
+
+.sourcelink {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #f0f0f0;
+    text-decoration: underline;
+}

@@ -42,3 +42,11 @@ button:hover{
     background-color: #c7aa0a;
     color: white;
 }
+
+.sourcelink {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #f0f0f0;
+    text-decoration: underline;
+}
