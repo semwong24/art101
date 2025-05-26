@@ -1,58 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 11: JavaScript Events and Forms</title>
+	<title>Lab 13: Loops</title>
   	<meta charset="UTF-8" />
 
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	 <link rel="stylesheet" type="text/css" href="../css/site.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/lab11.js" DEFER></script>
+    <script src="js/lab13.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 11: JavaScript Events and Forms</h1>
+			<h1>Lab 13: Loops</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>This lab's goal was to use JavaScript and jQuery to respond to user input. 
-                        On the page, I built a form where a user can enter their name, click a button, and see the letters sorted alphabetically using a custom function.
+					<p>The challenge of this lab was to create a FizzBuzz program that prints numbers from 1 to 200.
+                        If the number is divisible by 3, 5, or 7, it prints "Fizz", "Buzz", or "Boom", respectively. 
+                        If divisible by more than one factor, it combines them (ex. "FizzBuzz").
                     </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>A problem that came up was making sure the jQuery selectors matched the HTML elemnt IDs. 
-                        Using DEFER helped ensure the script didn't run before the page loaded. Styling and layout also took some trial and error to get clean results. 
+					<p>One issue I ran into was ensuring the program printed the correct combinations (ex. "FizzBuzz" for 15).
+                        I solved this by checking for combinations first. The output was initially a long list, so I used CSS Grid to display the results in columns, making it more readable.
                     </p>
 			</div>
 
             <div class="minor-section">
 					<h2>Reflection</h2>
-					<p>This was a fun and manageable lab. It helped solidify how events and DOM updates work. 
-                        The interactivity felt rewarding, and testing with the console made debugging easier. I think I would like to explore adding more features next time.
+					<p>This lab reinforced my understanding of loops, conditionals, and DOM manipulation.
+                        The main challenge was getting the combination logic right and making the output visually organized.
+                        It was a useful exercise, and I am happy with the results.
                     </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"> </div>
-                    <input  type="text" id="user-name" placeholder="Input your name">
-                    <button id="submit">Submit</button>
-                    <a class="sourcelink" href="js/lab11.js" target="_blank">JavaScript Source</a>
+                    <div id="output"></div>
+                    <a class="sourcelink" href="js/lab13.js" target="_blank">JavaScript Source</a>
 			</div>
 
-            <div class="minor-section">
-                <h2>Bonus Tasks</h2>
-                <input  type="text" id="user-age" placeholder="Input your age">
-                <input  type="text" id="user-color" placeholder="Input your favorite color">
-                <button id="anagram">Create Anagram</button>
-                <button id="show-info">Show Info</button>
-                <button id="glitch">Glitch Page</button>
-                <button id="auto-glitch-toggle">Start Auto-Glitch</button>
-            </div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
@@ -69,8 +60,8 @@
                     <li><a href="../lab8/">Lab 8: Anon Functions and Callbacks</a></li>
                     <li><a href="../lab9/">Lab 9: Libraries & jQuery</a></li>
                     <li><a href="../lab10/">Lab 10: JavaScript for the Web</a></li>
+                    <li><a href="../lab11/">Lab 11: JavaScript Events and Forms</a></li>
                     <li><a href="../lab12/">Lab 12: Conditionals</a></li>
-                    <li><a href="../lab13/">Lab 13: Loops</a></li>
                 </ul>
             </div>
 		</nav>
