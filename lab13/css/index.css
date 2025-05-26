@@ -24,3 +24,19 @@
 #output p{
     margin: 0;
 }
+
+/* Ensures the form elements stack vertically */
+#maxNumber, #factor, #message {
+    display: block;
+    margin-bottom: 10px; /* Adds space between inputs */
+    width: 100%; /* Makes the inputs full width */
+}
+
+button {
+    display: block;
+    margin-bottom: 20px; /* Adds space below the button */
+}
+
+div {
+    margin-bottom: 20px; /* Adds space between each section */
+}

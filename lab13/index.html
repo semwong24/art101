@@ -40,7 +40,35 @@
 
 			<div class="minor-section">
 					<h2>Results</h2>
+                    
+                    <!-- Form to update the max number-->
+                    <div>
+                        <label for="maxNumber">Enter max number: </label>
+                        <input type="number" id="maxNumber" value="200">
+                        <button id="updateMax">Update Max</button>
+                    </div>
+
+                    <!-- Form to add new factors and messages -->
+                    <div>
+                        <label for="factor">Enter a factor: </label>
+                        <input type="number" id="factor" placeholder="e.g., 13">
+                        <label for="message">Enter a message for the factor: </label>
+                        <input type="text" id="message" placeholder="e.g., 'Thirteen'">
+                        <button id="addFactor">Add Factor</button>
+                    </div>
+
+                    <!-- Table to show all current factors and their messages -->
+                    <h2>Factor-Message Mapping</h2>
+                    <table id="factorTable">
+                        <tr>
+                            <th>Factor</th>
+                            <th>Message</th>
+                        </tr>
+                        <!-- Factor rows will be dynamically added here -->
+                    </table>
+
                     <div id="output"></div>
+
                     <a class="sourcelink" href="js/lab13.js" target="_blank">JavaScript Source</a>
 			</div>
 
