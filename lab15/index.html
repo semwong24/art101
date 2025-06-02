@@ -1,53 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 12: Conditionals</title>
+	<title>Lab 15: AJAX</title>
   	<meta charset="UTF-8" />
 
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	 <link rel="stylesheet" type="text/css" href="../css/site.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/lab12.js" DEFER></script>
+    <script src="js/lab15.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 12: Conditionals</h1>
+			<h1>Lab 15: AJAX</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>The challenge was to use JavaScript conditionals to create a "Sorting Hat" experience that reacts to user input and outputs a result based on logic.</p>
+					<p>The challenge of this lab was to use jQuery and AJAX to retrieve data from an external API and display it on a webpage in response to user interaction.
+                        We needed to test an endopint, fetch JSON data, and format it for display, while keeping everything clean and styled.
+                    </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>I didn't run into any major problems while working on this lab. The most would be that at first I wasn't sure how to style the output dynamically with jQuery, but 
-                        testing in the console helped reaffirm that the HTML and DOM can be updated together.
+					<p>One issue we ran into was understanding the API response structure from the PokéAPI, especially how to access nested objects like abilities and sprite URLS.
+                        We solved this by logging the data to the console and checking how the properties were organized. Another small issue was making the page look good visually,
+                        but we fixed that by adjusting CSS and hiding the output until the botton is clicked.
                     </p>
 			</div>
 
             <div class="minor-section">
 					<h2>Reflection</h2>
-					<p>This lab helped reinforce how conditionals work in JavaScript and gave me creative control over the user experience. It was fun and satisfying to test live changes.</p>
+					<p>This lab was a good introduction to working with APIs and asynchronous JavaScript. It was satisfying to fetch live data and display it dynamically on the page.
+                        We also got to practice debugging using the console and refining our CSS to create a better user experience. Overall, it helped reinforce how frontend and backend 
+                        communication works on the web.
+                    </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-                    <label for="input">Please enter your name for sorting:</label>
-                    <input type="text" id="input" />
-                    <button id="button">Submit</button>
                     <div id="output"></div>
-                    <div id="house-image"></div>
-                    <a class="sourcelink" href="js/lab12.js" target="_blank">JavaScript Source</a>
+                     <button id="activate">Activate</button>
+                    <a class="sourcelink" href="js/lab15.js" target="_blank">JavaScript Source</a>
 			</div>
 
-            <div class="minor-section">
-                <h2>Bonus Tasks</h2>
-                <p>I improved and explored the sorting by using a hash function on the input name, which makes the sorting feel more random and mysterious.
-                    I also added images and descriptions for each house, and refactored the code to use an array for easier updates and cleaner logic.
-                </p>
-            </div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
@@ -65,6 +62,7 @@
                     <li><a href="../lab9/">Lab 9: Libraries & jQuery</a></li>
                     <li><a href="../lab10/">Lab 10: JavaScript for the Web</a></li>
                     <li><a href="../lab11/">Lab 11: JavaScript Events and Forms</a></li>
+                    <li><a href="../lab12/">Lab 12: Conditionals</a></li>
                     <li><a href="../lab13/">Lab 13: Loops</a></li>
                     <li><a href="../lab14/">Lab 14: Debugging Tools & Strategies</a></li>
                     <li><a href="../lab15/">Lab 15: AJAX</a></li>

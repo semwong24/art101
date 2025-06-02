@@ -1,0 +1,45 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #6C6F7D;
+  }
+
+
+.sourcelink {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+#output {
+  display: none;
+  margin: 20px auto;
+  padding: 15px;
+  width: 320px; 
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+#output img {
+  width: 150px;
+  height: auto;
+  margin: 10px 0;
+}
+
+#output h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color:#1f1d92;
+}
+
+#output p {
+  margin: 6px 0;
+  font-size: 1em;
+}
