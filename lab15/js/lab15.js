@@ -60,7 +60,7 @@ function fetchPokemon(apiURL) {
 
 // Button for partner's favorite (change the name to theirs!)
 $("#partnerBtn").click(function () {
-  fetchPokemon("https://pokeapi.co/api/v2/pokemon/eevee");
+  fetchPokemon("https://pokeapi.co/api/v2/pokemon/snorlax");
 });
 
 // Button for a random Pokémon
