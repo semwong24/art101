@@ -1,58 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 11: JavaScript Events and Forms</title>
+	<title>Lab 16: JSON and APIs</title>
   	<meta charset="UTF-8" />
 
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	 <link rel="stylesheet" type="text/css" href="../css/site.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/lab11.js" DEFER></script>
+    <script src="js/lab16.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 11: JavaScript Events and Forms</h1>
+			<h1>Lab 16: JSON and APIs</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>This lab's goal was to use JavaScript and jQuery to respond to user input. 
-                        On the page, I built a form where a user can enter their name, click a button, and see the letters sorted alphabetically using a custom function.
+					<p>The challenge of this lab was to learn how to work with APIs and JSON data using jQuery. 
+                        We practiced accessing external data from the XKCD API and displaying specific elements like the comic image, title, and alt text on our webpage.
                     </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>A problem that came up was making sure the jQuery selectors matched the HTML elemnt IDs. 
-                        Using DEFER helped ensure the script didn't run before the page loaded. Styling and layout also took some trial and error to get clean results. 
+					<p>At first, we ran into a CORS (Cross-Origin Resource Sharing) error when trying to access the XKCD API directly from our local environment. 
+                        This was solved by using a temporary access proxy from cors-anywhere.herokuapp.com, which allowed us to retrieve and display the comic data correctly. 
+                        We also used console.log to explore the structure of the JSON object and ensure everything was working properly.
                     </p>
 			</div>
 
             <div class="minor-section">
 					<h2>Reflection</h2>
-					<p>This was a fun and manageable lab. It helped solidify how events and DOM updates work. 
-                        The interactivity felt rewarding, and testing with the console made debugging easier. I think I would like to explore adding more features next time.
+					<p>This lab helped us understand how to handle real-world API data and dynamically insert content into a webpage. It felt rewarding to see the comic load successfully after troubleshooting the CORS issue. 
+                        We put consistent effort into testing the endpoint, understanding the JSON structure, and debugging the AJAX request. Overall, this was a solid intro to working with APIs.
                     </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"> </div>
-                    <input  type="text" id="user-name" placeholder="Input your name">
-                    <button id="submit">Submit</button>
-                    <a class="sourcelink" href="js/lab11.js" target="_blank">JavaScript Source</a>
+                    <div id="output"></div>
+                    <a class="sourcelink" href="js/lab16.js" target="_blank">JavaScript Source</a>
 			</div>
 
-            <div class="minor-section">
-                <h2>Bonus Tasks</h2>
-                <input  type="text" id="user-age" placeholder="Input your age">
-                <input  type="text" id="user-color" placeholder="Input your favorite color">
-                <button id="anagram">Create Anagram</button>
-                <button id="show-info">Show Info</button>
-                <button id="glitch">Glitch Page</button>
-                <button id="auto-glitch-toggle">Start Auto-Glitch</button>
-            </div>
+
+
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
@@ -69,11 +61,11 @@
                     <li><a href="../lab8/">Lab 8: Anon Functions and Callbacks</a></li>
                     <li><a href="../lab9/">Lab 9: Libraries & jQuery</a></li>
                     <li><a href="../lab10/">Lab 10: JavaScript for the Web</a></li>
+                    <li><a href="../lab11/">Lab 11: JavaScript Events and Forms</a></li>
                     <li><a href="../lab12/">Lab 12: Conditionals</a></li>
                     <li><a href="../lab13/">Lab 13: Loops</a></li>
                     <li><a href="../lab14/">Lab 14: Debugging Tools & Strategies</a></li>
                     <li><a href="../lab15/">Lab 15: AJAX</a></li>
-                    <li><a href="../lab16/">Lab 16: JSON and APIs</a></li>
                 </ul>
             </div>
 		</nav>

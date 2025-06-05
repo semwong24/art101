@@ -1,0 +1,15 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #6C6F7D;
+  }
+
+
+.sourcelink {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #f0f0f0;
+    text-decoration: underline;
+}
